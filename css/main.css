@@ -28,14 +28,29 @@ a img{
 }
 h1{
 	font-size:1em;
+	color: #DED1A5;
 }
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 23px solid transparent;
+	border-bottom: 24px solid transparent;
+	border-left: 16px solid #411700;
+	float: left;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
 /***********************/
 /*@ HEADER */
 #header{
 	height: 56px;
 	background: #DED1A5;
 	font-size:1.4em;
-	position:relative;
+	position:fixed;
+	width: 100%;
+	z-index: 10;
 }
 #header img{
 	vertical-align: middle;
@@ -65,32 +80,40 @@ h1{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	width:100%;
-	padding:7px;
+	padding: 65px 7px 7px;
 	font-size:1.5em;
 }
 #sidebar{
-	width:190px;
+	/*width:190px;*/
 	float:left;
+	position: fixed;
+	z-index: 10;
+}
+#sidebar ul{
+	width:216px;
 }
 #sidebar li{
 	margin-bottom:6px;
+	position:relative;
 }
 #sidebar a{
 	background:#f4eedb;
 	padding:15px 0px;
-	width:100%;
+	/*width:100%;*/
+	width:190px;
 	text-align:center;
 	display:block;
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
-#sidebar a:hover{
+#sidebar a:hover,
+#sidebar a.active{
 	background: #411700;
 	color:#DED1A5;
 }
 .menu_body{
-	float:left;
+	float:right;
 	width:790px;
 }
 
@@ -108,7 +131,7 @@ h1{
 	position: relative;
 	z-index:2;
 	background: #411700;
-	background: rgba(65, 23, 0, 0.3);
+	background: rgba(65, 23, 0, 0.7);
 	height:50px;
 	font-size:1.2em;
 }
@@ -117,6 +140,15 @@ h1{
 	font-weight:400;
 	max-width:165px;
 	padding-left:8px;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 23px;
+}
+#gridview h1.tworow{
+	height:44px;
 }
 
 .grid_thumb img{
@@ -129,7 +161,14 @@ h1{
 	float:right;
 	font-size:1.4em;
 	font-weight:600;
-	padding-right:4px;
+	padding-right:5px;
+	vertical-align: middle;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	right: 0;
+	height: 29px;
 }
 sup{
 	font-size: 0.65em;
