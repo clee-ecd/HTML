@@ -5,51 +5,50 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
-<title>Chef Tony Menu - Homepage</title>
-<link rel="stylesheet" type="text/css" href="css/reset.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
+<title>Chef Tony Menu - Casseroles - Grid View</title>
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css">
 </head>
 
 <body>
 
 <div id="header"><!--
 	<span class="helper"></span>-->
-    <a href=""><img src="images/logo.png" alt="Chef Tony Menu" /></a>
+    <a href=""><img src="../images/logo.png" alt="Chef Tony Menu" /></a>
 	<a class="lang">English &raquo;</a> 
 </div><!--header-->
 
 <div id="wrapper" class="clearfix">
 	<div id="sidebar">
 		<ul>
-			<li><a class="active" href="#">滋味煎菜</a></li>
-			<li><a href="">養生燉鍋</a></li>
-			<li><a href="">馳名燒味</a></li>
-			<li><a href="">燕窩、海參、花膠</a></li>
-			<li><a href="">精選山珍小菜</a></li>
-			<li><a href="">心意小炒-素菜</a></li>
-			<li><a href="">心意小炒-葷菜</a></li>
-			<li><a href="">鮑魚、魚翅</a></li>
-			<li><a href="">煲仔</a></li>
-			<li><a href="">主食</a></li>
-			<li><a href="">甜品</a></li>
+			<li><a href="starters.html">滋味煎菜</a></li>
+			<li><a href="soups.html">養生燉鍋</a></li>
+			<li><a href="bbq.html">馳名燒味</a></li>
+			<li><a href="birdsnest_swimbladder_seacucumber.html">燕窩、海參、花膠</a></li>
+			<li><a href="specialties_luxury.html">山珍小菜</a></li>
+			<li><a href="specialties_heart.html">心意小炒</a></li>
+			<li><a href="noodles_rices.html">粉面飯</a></li>
+			<li><a href="abalone_sharkfin.html">鮑魚、魚翅</a></li>
+			<li><a class="active" href="casseroles.html">煲仔</a></li>
+			<li><a href="desserts.html">甜品</a></li>
 			<li><a href="" >時令小菜 &#9733;</a></li>
 		</ul>
 	</div><!--sidebar-->
 	<div id="gridview" class="menu_body">
-    	<a href="">
-		<div class="grid_thumb">
+    	
+
+<a href="list.html">
+        <div class="grid_thumb">
 			<div class="heading">
-				<h1>鬼馬油條沙律</h1>
+				<h1>???</h1>
 				<p class="price">$20<sup>.99</sup></p>
 			</div>
-			<img src="images/dishes/7_noodlesandrice/xonoodles_s.jpg" alt="鬼馬油條沙律" />
+			<img src="../images/dishes/8_abalone/.jpg" alt="???" />
 		</div><!--grid_thumb-->
 </a>
 
-	<a href="chinese/grid.html">Grid View</a>
-    <a href="chinese/list.html">List VIew</a>
-        
-      
+
+
 	</div><!-- menu_body-->
 </div><!--wrapper-->
 
@@ -58,13 +57,14 @@
 <script src="http://code.jquery.com/jquery-1.9.0.js"></script>-->
 <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
 
-<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="../js/jquery.bxslider.min.js"></script>
+<script type="text/javascript" src="../js/main.js"></script>
 
 <script>
 	$( document ).ready(function() {
 	  // Handler for .ready() called.
 	  $( "<div class='arrow-right'></div>").insertAfter( "#sidebar a.active" );
+	  $( "<img class='glare' src='../images/glare.png'>").insertAfter( "div.grid_thumb img" );
 	  
 	});
 	window.addEventListener("load",function() {
