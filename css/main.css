@@ -403,9 +403,17 @@ sup{
 top:6px;
 	right: 6px;
 }
+.is_english .list_item .price.seasonal{
+	top:0;
+}
 .list_item .price.seasonal{
 	font-size: 1.9em;
-	top: 0px;
+	top: 16px;
+}
+.is_english .list_item  .price.twoprices{
+	line-height: 47px;
+	top: 3px;
+	font-size: 2.7em;
 }
 .bx-viewport{
 	height:768px !important;
