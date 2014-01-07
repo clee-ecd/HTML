@@ -96,10 +96,15 @@ h1{
 	position: absolute;
 	/*top: 19px;
 	left: 50%;*/
-	top: 24px;
+	float:right;
+	top: 24px; /*
+	right:176px;*/
 	right: 145px;
 	color:#e30404;
 	font-weight:600;
+}
+#back.is_english{
+	right: 127px;
 }
 #back:before{
 	content:"";
@@ -128,14 +133,17 @@ h1{
 	background:url(../images/bg.jpg) no-repeat;
 	padding: 0;
 	height: 768px;
+	position:relative;
 }
 .mainindex p{
 	font-size: 1.3em;
 	color: #431700;
 	font-weight: 600;
-	position: absolute;
+	position: absolute;/*
 	bottom: 0px;
-	left: 143px;
+	left: 143px;*/
+	bottom: 99px;
+	right: 47px;
 }
 .mainindex a{
 	border: 1px solid #431700;
@@ -338,6 +346,9 @@ sup{
 	/*padding:7px 8px 0;*/
 	padding:22px 8px 0;
 	background: rgba(4, 4, 4, 0.7);
+}
+.noimg.list_item .heading{
+	margin-bottom:10px;
 }
 .list_item sup{/*
 	bottom: 15px;*/
