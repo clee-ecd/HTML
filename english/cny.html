@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
-<title>Chef Tony Menu - Starters - Grid View</title>
+<title>Chef Tony Menu - Chinese New Year Special - Grid View</title>
 <link rel="stylesheet" type="text/css" href="../css/reset.css">
 <link rel="stylesheet" type="text/css" href="../css/main.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -17,12 +17,12 @@
 <div id="header"><!--
 	<span class="helper"></span>-->
     <a href="../index.html"><img src="../images/logo.png" alt="Chef Tony Menu" /></a>
-	<a href="../chinese/starters.html" class="lang">中文</a> </div><!--header-->
+	<a href="../chinese/cny.html" class="lang">中文</a> </div><!--header-->
 
 <div id="wrapper" class="clearfix is_english">
 	<div id="sidebar">
 		<ul>
-			<li><a class="active" href="starters.html">Starters</a></li>
+			<li><a href="starters.html">Starters</a></li>
 			<li><a href="soups.html">Double-boiled soup</a></li>
 			<li><a class="tworow" href="birdsnest_swimbladder_seacucumber.html">Bird's nest, Sea cucumber <br />&amp; Fish maw</a></li>
             <li><a href="abalone_sharkfin_list.html">Abalone &amp; Shark's Fin</a></li>
@@ -32,89 +32,32 @@
 			<li><a href="hotpot_list.html">Hotpot</a></li>
             <li><a href="noodles_rices.html">Noodles &amp; rice</a></li>
 			<li><a href="desserts_list.html">Desserts</a></li>
-			<li><a href="cny.html" >CNY Special &#9733;</a></li>
+			<li><a href="cny.html"  class="active">CNY Special &#9733;</a></li>
 		</ul>
 	</div><!--sidebar-->
 	<div id="gridview" class="menu_body">
     	
+        <a href="cny_list.html">
 		<div class="grid_thumb">
 			<div class="heading">
-				<h1>Smoked salmon roll</h1>
-				<p class="price">$11<sup>.98</sup></p>
+				<h1>Individual Dishes</h1>
 			</div>
             <img src="../images/dishes/1_starters/salmonsmoke_s.jpg" alt="Smoked salmon roll" />
             
 		</div><!--grid_thumb-->
+        </a>
 
         
-        
+        <a href="cny_combo_list.html">
         <div class="grid_thumb">
 			<div class="heading">
-				<h1 class="tworow">Chicken feet in vinegar with pepper</h1>
-				<p class="price">$7<sup>.98</sup></p>
+				<h1 class="">Combos</h1>
 			</div>
 			<img src="../images/dishes/1_starters/chickenfeet_s.jpg" alt="Chicken feet in vinegar with pepper" />
 		</div><!--grid_thumb-->
+        </a>
 
         
-        
-        <div class="grid_thumb">
-			<div class="heading">
-                <h1 class="tworow">Hand tossed black fungus and onion slices</h1>
-				<p class="price">$5<sup>.98</sup></p>
-			</div>
-			<img src="../images/dishes/1_starters/onionjudae_s.jpg" alt="Hand tossed black fungus and onion slices" />
-		</div><!--grid_thumb-->
-
-        
-        
-        <div class="grid_thumb">
-			<div class="heading">
-				<h1 class="tworow">King oyster mushroom and carrot shreds mix</h1>
-				<p class="price">$7<sup>.98</sup></p>
-			</div>
-			<img src="../images/dishes/1_starters/freshmushroom_s.jpg" alt="King oyster mushroom and carrot shreds mix" />
-		</div><!--grid_thumb-->
-
-        
-        
-        <div class="grid_thumb">
-			<div class="heading">
-				<h1 class="tworow">Jellyfish soaked in vinegar</h1>
-				<p class="price">$7<sup>.98</sup></p>
-			</div>
-			<img src="../images/dishes/1_starters/vinegarseaweed_s.jpg" alt="Jellyfish soaked in vinegar" />
-		</div><!--grid_thumb-->
-
-        
-        <div class="grid_thumb">
-			<div class="heading">
-				<h1 class="tworow">Preserved egg slices trimmed with sour ginger</h1>
-				<p class="price">$5<sup>.98</sup></p>
-			</div>
-			<img src="../images/dishes/1_starters/vinegaregg_s.jpg" alt="Preserved egg slices trimmed with sour ginger" />
-		</div><!--grid_thumb-->
-
-        
-        
-        <div class="grid_thumb">
-			<div class="heading">
-				<h1 class="tworow">Radish sticks soaked in spicy vinegar</h1>
-				<p class="price">$5<sup>.98</sup></p>
-			</div>
-			<img src="../images/dishes/1_starters/raddishstick_s.jpg" alt="Radish sticks soaked in spicy vinegar" />
-		</div><!--grid_thumb-->
-
-        
-        
-        <div class="grid_thumb">
-			<div class="heading">
-				<h1 class="tworow">Chinese donut stuffed with shrimp paste</h1>
-				<p class="price">$8<sup>.98</sup></p>
-			</div>
-			<img src="../images/dishes/1_starters/friedsalad_s.jpg" alt="Chinese donut stuffed with shrimp paste" />
-		</div><!--grid_thumb-->
-
         
 
 	</div><!-- menu_body-->
@@ -134,11 +77,12 @@
 	 // $( "<div class='arrow-right'></div>").insertAfter( "#sidebar a.active" );
 	  $("<img class='glare' src='../images/glare.png'>").insertAfter( "div.grid_thumb img" );
 	  
+	  /*
 	  $("div.grid_thumb").each(function(index){
 		  index2 = index + 1;
 	  	  //$(this).wrap( "<a href='starters_list.html#starter"+ index2 +"'></a>" );
-		  $(this).wrap( "<a href='starters_list.html?id="+ index2 +"'></a>" );
-	  });
+		  $(this).wrap( "<a href='cny_list.html?id="+ index2 +"'></a>" );
+	  });*/
 	  
 	});
 	window.addEventListener("load",function() {

@@ -129,6 +129,14 @@ h1{
 	padding: 0;
 	height: 768px;
 }
+.mainindex p{
+	font-size: 1.3em;
+	color: #431700;
+	font-weight: 600;
+	position: absolute;
+	bottom: 0px;
+	left: 143px;
+}
 .mainindex a{
 	border: 1px solid #431700;
 	color: #431700;
@@ -163,7 +171,7 @@ width: 330px;
 	background: url(../images/main_sprite.png) 16px -232px no-repeat;
 }
 #sidebar li:last-of-type{
-	display:none;
+	/*display:none;*/
 }
 #sidebar a{
 	font-family: Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
