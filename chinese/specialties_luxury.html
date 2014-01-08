@@ -218,6 +218,8 @@
 		 $('body').on('touchmove', function (e) {
 				 if (!$('.menu_body').has($(e.target)).length) e.preventDefault();
 		 });
+		 $(document).off('touchmove');
+		 $('body').off('touchmove touchstart', '.menu_body');
 	  
 	}); //ready
 	window.addEventListener("load",function() {
