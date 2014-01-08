@@ -36,7 +36,7 @@
 			<li><a href="cny.html" >新年小菜 &#9733;</a></li>
 		</ul>
 	</div><!--sidebar-->
-	<div id="gridview" class="menu_body">
+	<div id="gridview" class="menu_body" style="height: 693px; overflow: scroll;">
     	
      
 
@@ -215,12 +215,12 @@
 	  });
 	  
 	   // Disable overscroll / viewport moving on everything but scrollable divs
-		 $('body').on('touchmove', function (e) {
+		/* $('body').on('touchmove', function (e) {
 				 if (!$('.menu_body').has($(e.target)).length) e.preventDefault();
 		 });
 		 $(document).off('touchmove');
 		 $('body').off('touchmove touchstart', '.menu_body');
-	  
+	  */
 	}); //ready
 	window.addEventListener("load",function() {
 		// Set a timeout...
@@ -229,6 +229,9 @@
 			window.scrollTo(0, 1);
 		}, 0);
 	});
+	
+	
+	
 	
 	
 </script>
