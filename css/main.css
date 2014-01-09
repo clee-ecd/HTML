@@ -232,7 +232,7 @@ width: 330px;
 /*	height:174px;
 	height:224px;
 	margin-bottom:9px;*/
-	height:228px;
+	height:224px;
 	border-right:1px solid #fff;
 	
 }
@@ -289,7 +289,7 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 	top:0;*/
 	z-index:1;
 	position:relative;
-	bottom:2px;
+	bottom:5px;
 }/*
 .list_item a img{
 	position:absolute;
