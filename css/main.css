@@ -219,7 +219,7 @@ width: 330px;
 
 /***********************/
 /*@ GRID VIEW */
- img.glare{
+.grid_thumb img.glare{
 	z-index: 1000 !important;
 	right: 1px;
 	position:absolute;
@@ -232,7 +232,7 @@ width: 330px;
 /*	height:174px;
 	height:224px;
 	margin-bottom:9px;*/
-	height:230px;
+	height:228px;
 	border-right:1px solid #fff;
 	
 }
@@ -288,6 +288,8 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 /*	position:absolute;
 	top:0;*/
 	z-index:1;
+	position:relative;
+	bottom:2px;
 }/*
 .list_item a img{
 	position:absolute;
