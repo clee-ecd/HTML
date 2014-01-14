@@ -341,6 +341,15 @@ sup{
 #listview{
 	width:760px;
 }
+/*#listview.noimg_list .heading*/
+.noimg.list_item .heading{
+	background:#faf2e7;
+}
+/*#listview.noimg_list .heading h1,
+#listview.noimg_list .heading .price*/
+.noimg .heading h1, .noimg .heading .price{
+	color:#431700;
+}
 .list_item{
 	position:relative;
 	clear: both;
