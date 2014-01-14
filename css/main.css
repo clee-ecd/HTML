@@ -248,9 +248,9 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 	*/
 	z-index:999;/*
 	background: #411700;
-	background: rgba(65, 23, 0, 0.85);*/
-	background: #040404;
-	
+	background: rgba(65, 23, 0, 0.85);
+	background: #040404;*/
+	background: #431700;
 	height:55px;
 	font-size:1.2em;
 }
@@ -307,6 +307,7 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 	opacity:0.55;
 	right:0;
 	z-index:999;
+	position: absolute;
 }
 .easyzoom--overlay  div.easyzoom-flyout{
 	top:-110px !important;
@@ -351,9 +352,10 @@ sup{
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	/*padding:7px 8px 0;*/
+	/*padding:7px 8px 0;background: rgba(4, 4, 4, 0.7);*/
 	padding:22px 8px 0;
-	background: rgba(4, 4, 4, 0.7);
+	background: #431700;
+	
 }
 .noimg.list_item .heading{
 	margin-bottom:10px;
@@ -381,7 +383,8 @@ sup{
 	font-family: 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 .list_item img{
-	position:absolute;
+/*	position:absolute;*/
+	position:relative;
 	top:0;
 }
 .desc{
