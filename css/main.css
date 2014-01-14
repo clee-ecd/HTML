@@ -392,6 +392,7 @@ sup{
 }
 .tags{
 	margin-top:6px;
+	display:none;
 }
 .tags p{
 	color: #fff;
