@@ -33,8 +33,8 @@ jQuery(document).ready(function () {
     //hide #listview for 0.3s
      //setTimeout(function(){ jQuery("#listview ul").hide(); });
      //setTimeout(function(){ jQuery("#listview ul").show(); }, 1300);
-	 setTimeout(function(){ jQuery("#listview ul").css('visibility','hidden'); });
+/*	 setTimeout(function(){ jQuery("#listview ul").css('visibility','hidden'); });
 	 setTimeout(function(){ jQuery("#listview ul").css('visibility','visible').hide().fadeIn('slow'); }, 200);
-});
+*/});
 
 //GG add Ends
