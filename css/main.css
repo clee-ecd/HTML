@@ -156,6 +156,7 @@ width: 85px;
 display: block;
 float: left;
 text-align: center;
+max-height: 27px;
 }
 .link_wrap{
 	position: absolute;
@@ -270,6 +271,10 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 	margin: auto;
 	height: 23px;
 	text-transform:capitalize;
+	line-height: 22px;
+}
+.is_english #gridview h1{
+	line-height:auto;
 }
 #gridview h1.tworow{
 	height:43px;
