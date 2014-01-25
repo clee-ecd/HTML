@@ -274,7 +274,7 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 	line-height: 22px;
 }
 .is_english #gridview h1{
-	line-height:auto;
+	line-height: normal;
 }
 #gridview h1.tworow{
 	height:43px;
