@@ -446,3 +446,11 @@ top:6px;
 .bx-viewport{
 	height:768px !important;
 }
+.noimg.list_item .heading.headerblock{
+	background: #431700;
+}
+.noimg.list_item .heading.headerblock h1{
+	color: #fff;
+	/*position: relative;
+	top: 30px;*/
+}
