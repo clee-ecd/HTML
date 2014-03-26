@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
-<title>Chef Tony Menu - Casseroles - Grid View</title>
+<title>Chef Tony Menu - Beverage & Desserts - Grid View</title>
 <link rel="stylesheet" type="text/css" href="../css/reset.css">
 <link rel="stylesheet" type="text/css" href="../css/main.css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -17,7 +17,7 @@
 <div id="header"><!--
 	<span class="helper"></span>-->
     <a href="../index.html"><img src="../images/logo.png" alt="Chef Tony Menu" /></a>
-	<a class="lang" href="../english/casseroles.html">English</a> 
+	<a class="lang" href="../english/drinks_desserts.html">English</a> 
 </div><!--header-->
 
 <div id="wrapper" class="clearfix">
@@ -25,29 +25,39 @@
 		<ul>
 			<li><a href="starters.html">滋味前菜</a></li>
 			<li><a href="soups.html">養生燉湯</a></li>
-			<li><a href="bbq.html">馳名燒味</a></li>
 			<li><a href="birdsnest_swimbladder_seacucumber.html">燕窩、海參、花膠</a></li>
+			<li><a href="abalone_sharkfin_list.html">鮑魚、魚翅</a></li>
+			<li><a href="bbq.html">馳名燒味</a></li>
 			<li><a href="specialties_luxury.html">山珍小菜</a></li>
 			<li><a href="specialties_heart.html">心意小炒</a></li>
+			<li><a href="hotpot_list.html">煲仔</a></li>
+            <li><a href="oldfashion.html" >懷舊 / 家常小菜</a></li>
 			<li><a href="noodles_rices.html">粉麵飯</a></li>
-			<li><a href="abalone_sharkfin_list.html">鮑魚、魚翅</a></li>
-			<li><a class="active" href="hotpot_list.html">煲仔</a></li>
-			<li><a href="drinks_desserts.html">甜品 / 飲料</a></li>
-<!--<li><a href="oldfashion.html" >懷舊 / 家常小菜 &#9733;</a></li>-->
+			<li><a class="active" href="drinks_desserts.html">甜品 / 飲料</a></li>
+            <!--<li><a href="beverage_list.html">飲料</a></li>
+			<li><a href="oldfashion.html" >懷舊 / 家常小菜 &#9733;</a></li>-->
 		</ul>
 	</div><!--sidebar-->
 	<div id="gridview" class="menu_body">
-    	
 
-<a href="list.html">
+        <a href="desserts_list.html">
         <div class="grid_thumb">
 			<div class="heading">
-				<h1>???</h1>
-				<p class="price">$20<sup>.99</sup></p>
+				<h1>甜品</h1>
 			</div>
-			<img src="../images/dishes/8_abalone/.jpg" alt="???" />
+			<img src="../images/dishes/9_dessert/almondbirdsnest_s.jpg" alt="" />
 		</div><!--grid_thumb-->
-</a>
+        </a>
+            	
+        <a href="beverage_list.html">
+        <div class="grid_thumb">
+			<div class="heading">
+				<h1>飲料</h1>
+			</div>
+			<img src="../images/dishes/beverages_s.jpg" alt="" />
+		</div><!--grid_thumb-->
+        </a>
+
 
 
 
@@ -65,8 +75,14 @@
 <script>
 	$( document ).ready(function() {
 	  // Handler for .ready() called.
-	  $( "<div class='arrow-right'></div>").insertAfter( "#sidebar a.active" );
+	  //$( "<div class='arrow-right'></div>").insertAfter( "#sidebar a.active" );
 	  $( "<img class='glare' src='../images/glare.png'>").insertAfter( "div.grid_thumb img" );
+	  
+	  $("div.grid_thumb").each(function(index){
+		  index2 = index + 1;
+	  	  //$(this).wrap( "<a href='noodlesrices_list.html?id="+ index2 +"'></a>" );
+		  //$(this).wrap( "<a href='starters_list.html'></a>" );
+	  });
 	  
 	});
 	window.addEventListener("load",function() {
