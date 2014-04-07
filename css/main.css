@@ -61,6 +61,8 @@ h1{
 	position:fixed;
 	width: 100%;
 	z-index: 1000;
+	/*adjustment to top bar overlapping bug: */
+	top:10px;
 }
 #header img{
 	vertical-align: middle;
@@ -128,6 +130,8 @@ h1{
 	width:1024px;
 	padding: 70px 7px 7px;
 	font-size:1.5em;
+	/*adjustment to top bar overlapping bug: */
+	padding-top:80px;
 }
 #wrapper.mainindex{
 	background:url(../images/bg.jpg) no-repeat;
