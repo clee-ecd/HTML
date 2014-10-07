@@ -416,6 +416,10 @@ sup{
 	margin-top:6px;
 	display:none;
 }
+.bbqlist .tags,
+.souplist .tags{
+	display:block;
+}
 .tags p{
 	color: #fff;
 	background: transparent;
@@ -426,6 +430,9 @@ sup{
 	margin-right: 6px;
 	padding: 3px 0;
 	border: 1px solid #fff;
+}
+.is_english .tags p{
+	width:125px;
 }
 .list_item .price{
 	font-size: 3em;
