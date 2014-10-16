@@ -94,7 +94,7 @@ h1{
 	top: -5px;
 	left: -37px;
 }
-#back{
+#back, #legend{
 	position: absolute;
 	/*top: 19px;
 	left: 50%;*/
@@ -104,6 +104,13 @@ h1{
 	right: 145px;
 	color:#e30404;
 	font-weight:600;
+}
+#legend span{
+	bottom: -3px;
+	right: 35px;
+}
+#legend.is_english span{
+	right: 105px;
 }
 #back.is_english{
 	right: 127px;
@@ -412,6 +419,16 @@ sup{
 	margin: 0 0 4px;
 	display:none;
 }
+.adv_order_icon{
+	background:url(../images/main_sprite.png) -3px -336px no-repeat;
+	width: 23px;
+	height: 24px;
+	display: block;
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+	z-index: 1;
+}
 .tags{
 	margin-top:6px;
 	display:none;
@@ -419,6 +436,22 @@ sup{
 .bbqlist .tags,
 .souplist .tags{
 	display:block;
+	position: absolute;
+	bottom: 5px;
+}
+.bbqlist .tags p,
+.souplist .tags p{
+/*	padding: 3px 12px;*/
+	color: #e30404;
+	background:#fff;
+	position:relative;
+	padding:5px 17px;
+	text-align:right;
+}
+.bbqlist .tags .adv_order_icon,
+.souplist .tags .adv_order_icon{
+	right: auto;
+	left: 13px;
 }
 .tags p{
 	color: #fff;
