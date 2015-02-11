@@ -353,6 +353,19 @@ sup{
 	bottom: 6px;
 }
 
+.outer{
+	font-size: 20px;
+	display: block; 
+	text-align: right;
+	position: relative;
+	bottom: 11px;
+	text-decoration: line-through;
+	color:#e30404;
+}
+.inner{
+	color:#fff;
+}
+
 /*@ LIST VIEW */
 #listview{
 	width:760px;
@@ -432,6 +445,9 @@ sup{
 .tags{
 	margin-top:6px;
 	display:none;
+}
+.special.tags{
+	display:block;
 }
 .bbqlist .tags,
 .souplist .tags{
