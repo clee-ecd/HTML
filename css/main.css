@@ -366,6 +366,15 @@ sup{
 	color:#fff;
 }
 
+.grid_thumb .special.price{
+	bottom: 16px;
+}
+.grid_thumb .special.price .outer{
+	position: relative;
+	top: -4px;
+	font-size: 14px;
+}
+
 /*@ LIST VIEW */
 #listview{
 	width:760px;
