@@ -284,6 +284,7 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 	text-transform:capitalize;
 	line-height: 22px;
 }
+
 .is_english #gridview h1{
 	line-height: normal;
 }
@@ -298,6 +299,7 @@ div.menu_body > a:nth-of-type(3n) div.grid_thumb{
 .is_english #gridview h1.threerow{
 	height: 45px;
 	font-size: 0.65em;
+	max-width:178px;
 }
 
 .grid_thumb img{
