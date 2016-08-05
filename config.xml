@@ -12,6 +12,7 @@
 	<icon src="images/icon.png" platform="ios"/>
 	<platform name="ios">
   		<icon src="images/icon.png"/>
+  		<icon src="images/icon_76.png" width="76" height="76" />
 	</platform>
     <description>
         Application for Chef Tony Menu.
