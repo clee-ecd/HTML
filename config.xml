@@ -9,6 +9,10 @@
 
     <name>Chef Tony</name>
 	<icon src="images/icon.png" />
+	<icon src="images/icon.png" platform="ios"/>
+	<platform name="ios">
+  		<icon src="images/icon.png"/>
+	</platform>
     <description>
         Application for Chef Tony Menu.
     </description>
